@@ -1,0 +1,20 @@
+business
+entertainment
+general
+health
+science
+sports
+technology
+
+
+
+
+<Route path="/business" > <News  key='business'  country= 'in' category= 'business'  pageSize={6} /> </Route>
+<Route path="/entertainment"> <News key='entertainment'  country= 'in' category=  'entertainment'  pageSize={6} /> </Route>
+<Route path="/general"> <News key='general'  country= 'in' category= 'general'   pageSize={6} /> </Route>
+<Route path="/health"> <News key='health' country= 'in' category= 'health'  pageSize={6} /> </Route>
+<Route path="/science"> <News key='science' country= 'in' category= 'science'  pageSize={6} /> </Route>
+<Route path="/sports"> <News key='sports' country= 'in' category=  'sports'  pageSize={6} /> </Route>
+<Route path="/technology"> <News key='technology' country= 'in' category= 'technology'   pageSize={6} /> </Route>
+
+<Route path="/home"> <News country= 'in' category= 'general'  pageSize={6} /> </Route>
